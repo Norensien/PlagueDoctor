@@ -1,0 +1,69 @@
+.jumbotron
+{
+background-color:#A9F5D0;
+background-attachment:fixed;
+margin-bottom:0px;
+}
+
+.alt1
+{
+background:#eee;
+min-height:400px;
+}
+.navbar-static-top navbar-inverse{
+height:100px;
+}
+
+#cont
+{
+width:400px;
+height:260px;
+border-radius: 25px;
+border: 2px solid black;
+
+
+}
+#border{
+border:2px solid black;
+width:704px;
+height:204px;
+}
+
+.col-md-4{
+margin-left:10%;
+
+}
+.inner{
+width:90%;
+height:80px;
+margin-left:10px;
+margin-top:10px;
+
+}
+.inner2{
+width:40%;
+height:50px;
+float:right;
+}
+.padding
+{
+padding-top:20px;
+padding-bottom:20px;
+
+}
+@media (max-width: 750px) 
+{
+    #border
+    {
+		width:504px;
+		height:147px; 
+    }
+}
+@media (max-width: 540px) 
+{
+    #border
+    {
+		width:304px;
+		height:90px; 
+    }
+}
